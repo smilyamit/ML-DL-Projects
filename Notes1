@@ -1,0 +1,14 @@
+### To load any pretrained keras model  follow below 3 links:(super easy)
+
+https://www.learnopencv.com/keras-tutorial-using-pre-trained-imagenet-models/
+https://keras.io/api/applications/
+https://predictivehacks.com/object-detection-with-pre-trained-models-in-keras/
+
+#1 In ANN
+# In Adding the input layer and the first hidden layer
+classifier.add(Dense(units = 6, kernel_initializer = 'uniform', activation = 'relu', input_dim = 11))
+* that units = 6 is for hidden layer. ie (input+output)/2 = (11+1)/2 =6
+
+# In ResNet-50
+Identity block are the skip-connected block
+Convolutional/Residual block are the normal block
