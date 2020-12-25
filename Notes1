@@ -9,6 +9,6 @@ https://predictivehacks.com/object-detection-with-pre-trained-models-in-keras/
 classifier.add(Dense(units = 6, kernel_initializer = 'uniform', activation = 'relu', input_dim = 11))
 * that units = 6 is for hidden layer. ie (input+output)/2 = (11+1)/2 =6
 
-# In ResNet-50 or any Resnet
+## In ResNet-50 or any Resnet
 Identity block are the skip-connected block
 Convolutional/Residual block are the normal block
