@@ -15,3 +15,4 @@ Iterator are objects which uses next() method to get next value of sequence.
 Generators:
 
 A generator is a function that produces or yields a sequence of values using yield method.
+https://stackoverflow.com/questions/2776829/difference-between-pythons-generators-and-iterators
