@@ -1,9 +1,9 @@
-How hierarchical clustering is used?
+#How hierarchical clustering is used?
 Hierarchical clustering starts by treating each observation as a separate cluster.
 Then, it repeatedly executes the following two steps: (1) identify the two clusters that are closest together, and (2) merge the two most similar clusters.
 his iterative process continues until all the clusters are merged together.
 
-When would you use K means cluster and when would you use hierarchical cluster?
+#When would you use K means cluster and when would you use hierarchical cluster?
 A hierarchical clustering is a set of nested clusters that are arranged as a tree. K Means clustering is found to work well when the structure of
 the clusters is hyper spherical (like circle in 2D, sphere in 3D). Hierarchical clustering don't work as well as, k means when the shape of the clusters is hyper spherical
 
