@@ -12,3 +12,4 @@ classifier.add(Dense(units = 6, kernel_initializer = 'uniform', activation = 're
 ## In ResNet-50 or any Resnet
 Identity block are the skip-connected block
 Convolutional/Residual block are the normal block
+##More advanced Algorithm
